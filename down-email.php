@@ -15,8 +15,8 @@ try {
 	$mail->isSMTP();
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
-	$mail->Username = 'evertondevtest@gmail.com';
-	$mail->Password = 'ZybdTUGI#j@8';
+	$mail->Username = 'email@gmail.com';
+	$mail->Password = 'senha';
 	$mail->SMTPSecure = 'tls';
 	$mail->Port = 587;
 
@@ -33,7 +33,7 @@ try {
 	fwrite($file, $base);
 	fclose($file);
 	
-	$email_content = "Nome: $name<br>";
+	$email_content = "O usuário abaixo fez uso da calculadora:<br>Nome: $name<br>";
 	$email_content .= "Email: $email<br>";
 	$email_content .= "Site/Blog: $site<br>";
 

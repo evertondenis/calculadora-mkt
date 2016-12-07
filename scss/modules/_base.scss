@@ -272,6 +272,12 @@ h1 {
 	padding-top: 100px;
 }
 
+.modal-backdrop {
+	&.in {
+		opacity: 0.9;
+	}
+}
+
 #modalSuccess {
 	.modal-dialog {
 		text-align: center;
