@@ -1,0 +1,285 @@
+<div class="container">
+  <section class="calculator">
+    <div class="container text-center animated js-result-fadeIn fadeIn" style="opacity: 0;">
+      <h1>PREENCHA OS CAMPOS COM AS<br><strong>INFORMAÇÕES DA SUA EMPRESA</strong></h1>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        
+        <form id="calc-form">
+          <div class="row" id="input-section">
+            
+            <!-- <div class="col-md-12"> -->
+              
+              <div class="col-md--5">
+                <div class="form-group">
+                  <label for="B3" class="control-label">Média mensal de visitantes <span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" title="" data-original-title="Qual é o seu tráfego médio mensal? Dica: use o Google Analytics ou um serviço semelhante para encontrar essas informações."></span></label>
+                  <div class="">
+                    <input type="text" required="" class="form-control" id="B3" placeholder="Tráfego mês">
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-md--5">
+                <div class="form-group">
+                  <label for="B4" class="control-label">Média de leads por mês? <span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" title="" data-original-title="Quantos leads mensais você gera atualmente através de seu site?"></span></label>
+                  <div class="">
+                    <input type="text" required="" class="form-control" id="B4" placeholder="Leads mensais">
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-md--5">
+                <div class="form-group">
+                  <label for="B5" class="control-label">Porcentagem de Leads Qualificados <span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" title="" data-original-title="Qual é a média mensal de leads qualificados atualmente?"></span></label>
+                  <div class="">
+                    <div class="input-group">
+                      <input type="text" required="" class="form-control number" id="B5" placeholder="Leads qualificados">
+                      <span class="input-group-addon">%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-md--5">
+                <div class="form-group">
+                  <label for="B6" class="control-label">Porcentagem de Leads que viram clientes <span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" title="" data-original-title="Qual é a porcentagem de leads qualificados que se tornam clientes?"></span></label>
+                  <div class="">
+                    <div class="input-group">
+                      <input type="text" required="" class="form-control" id="B6" placeholder="Close Rate">
+                      <span class="input-group-addon">%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-md--5">
+                <div class="form-group m-20">
+                  <label for="B7" class="control-label">Lifetime Value <span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" title="" data-original-title="Qual é o valor médio da vida útil de um cliente para sua empresa?"></span></label>
+                  <div class="">
+                    <div class="input-group">
+                      <span class="input-group-addon">R$ </span>
+                      <input type="text" required="" class="form-control" id="B7" placeholder="CLV">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- </div> -->
+            <!-- col -->
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-results">
+    <div class="row" id="input-section">
+      <div class="col-md-3 animated js-col-fadeUp" style="opacity: 0;">
+        <div class="metric">
+          <div class="value"><h2><span id="F3">0</span>%</h2></div>
+          <div class="title"><p>Sua taxa de conversão</p></div>
+        </div>
+      </div><!-- col -->
+    
+      <div class="col-md-3 animated js-col-fadeUp" style="opacity: 0;">
+        <div class="metric">
+          <div class="value"><h2><span id="F4">0</span></h2></div>
+          <div class="title"><p>Média leads qualificados/Mês</p></div>
+        </div>
+      </div><!-- col -->
+    
+      <div class="col-md-3 animated js-col-fadeUp" style="opacity: 0;">
+        <div class="metric">
+          <div class="value"><h2><span id="F5">0</span></h2></div>
+          <div class="title"><p>Média novos clientes/Mês</p></div>
+        </div>
+      </div><!-- col -->
+    
+      <div class="col-md-3 animated js-col-fadeUp" style="opacity: 0;">
+        <div class="metric">
+          <div class="value p-8"><h2 class="v-bruto">R$<br><span id="F6">0</span></h2></div>
+          <div class="title"><p>Lucro bruto/Mês</p></div>
+        </div>
+      </div><!-- col -->
+    </div><!-- row -->
+  </section>
+
+  <section id="section-projections">
+    <div class="container text-center animated js-result-fadeIn fadeIn" style="opacity: 0;">
+      <h1>CONFIRA UMA PROJEÇÃO DE QUANTO SUA<br><strong>EMPRESA PODE GANHAR</strong></h1>
+    </div>
+    <div class="row" id="impact">
+      <div class="col-md-4 animated js-col2-fadeUp" style="opacity: 0;">
+        <div class="metric">
+          <div class="value p-15"><h2 class="v-bruto">R$<br><span id="A10">+ 0.0</span></h2></div>
+          <div class="title"><p>Com Aumento de 1% na Taxa de Conversão</p></div>
+        </div>
+      </div>
+
+      <div class="col-md-4 animated js-col2-fadeUp" style="opacity: 0;">
+        <div class="metric">
+          <div class="value p-15"><h2 class="v-bruto">R$<br><span id="D10">+ 0.0</span></h2></div>
+          <div class="title"><p>Com 30% de Aumento no Tráfego do Site</p></div>
+        </div>
+      </div>
+
+      <div class="col-md-4 animated js-col2-fadeUp" style="opacity: 0;">
+        <div class="metric">
+          <div class="value p-15"><h2 class="v-bruto">R$<br><span id="B13">+ 0.0</span></h2></div>
+          <div class="title"><p>Com Aumento de 1% na Taxa de Conversão e 30% no Tráfego do Site</p></div>
+        </div>
+      </div>
+    </div><!-- row -->
+  </section>
+
+  <div class="row" id="details">
+    
+    <div class="col-md-4 animated js-tables-fadeUp" style="opacity: 0;">
+      <div class="top-radius">&nbsp;</div>
+      <table class="table table-striped table-condensed">
+        <tbody>
+          <tr><th>+ CONVERSÃO</th><th>+ RECEITA</th></tr>
+          <tr><td><span id="A16">.25</span>%</td><td>+ R$<span id="B16">0</span></td></tr>
+          <tr><td><span id="A17">.5</span>%</td><td>+ R$<span id="B17">0</span></td></tr>
+          <tr><td><span id="A18">1.5</span>%</td><td>+ R$<span id="B18">0</span></td></tr>
+          <tr><td><span id="A19">2</span>%</td><td>+ R$<span id="B19">0</span></td></tr>
+          <tr><td><span id="A20">3</span>%</td><td>+ R$<span id="B20">0</span></td></tr>
+        </tbody>
+      </table>
+      <div class="bottom-radius">&nbsp;</div>
+    </div><!-- col -->
+
+    <div class="col-md-4 animated js-tables-fadeUp" style="opacity: 0;">
+      <div class="top-radius">&nbsp;</div>
+      <table class="table table-striped table-condensed">
+        <tbody>
+          <tr><th>+ TRÁFEGO</th><th>+ RECEITA</th></tr>
+          <tr><td><span id="C16">10</span>%</td><td>+ R$<span id="D16">0</span></td></tr>
+          <tr><td><span id="C17">25</span>%</td><td>+ R$<span id="D17">0</span></td></tr>
+          <tr><td><span id="C18">50</span>%</td><td>+ R$<span id="D18">0</span></td></tr>
+          <tr><td><span id="C19">100</span>%</td><td>+ R$<span id="D19">0</span></td></tr>
+          <tr><td><span id="C20">200</span>%</td><td>+ R$<span id="D20">0</span></td></tr>
+        </tbody>
+      </table>
+      <div class="bottom-radius">&nbsp;</div>
+    </div><!-- col -->
+
+    <div class="col-md-4 animated js-tables-fadeUp" style="opacity: 0;">
+      <div class="top-radius">&nbsp;</div>
+      <table class="table table-striped table-condensed text-right">
+        <tbody><tr><th class="text-right">+ CONVERSÃO + TRÁFEGO</th></tr>
+          <tr><td>+ R$<span id="E16">0</span></td></tr>
+          <tr><td>+ R$<span id="E17">0</span></td></tr>
+          <tr><td>+ R$<span id="E18">0</span></td></tr>
+          <tr><td>+ R$<span id="E19">0</span></td></tr>
+          <tr><td>+ R$<span id="E20">0</span></td></tr>
+        </tbody>
+      </table>
+      <div class="bottom-radius">&nbsp;</div>
+    </div><!-- col -->
+  </div><!-- row -->
+
+  <div class="row download">
+    <div class="col-md-12">
+      <button type="button" id="download" data-toggle="modal" data-target="#modalDownload" class="btn btn-outline-inverse btn-lg"><span>DOWNLOAD EM PDF</span><i class="fa fa-download" aria-hidden="true"></i></button>
+      <button type="button" id="download-send" data-toggle="modal" data-target="#modalDownloadEmail" class="btn btn-orange btn-lg"><span>ENVIAR POR E-MAIL</span><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+    </div>
+  </div>
+</div><!-- container -->
+
+<script src="assets/js/jquery.number.min.js"></script>
+<script src="assets/js/jspdf.min.js"></script>
+<script src="assets/js/jquery.waypoints.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+<!-- Modal -->
+<div class="modal fade" id="modalDownload" tabindex="-1" role="dialog" aria-labelledby="modalDownload" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form role="form" id="download-form" action="down-email.php" method="post" enctype="multipart/form-data" class="form-horizontal">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><p aria-hidden="true">×</p><p class="txt-close">FECHAR</p></button>
+          <h4 class="modal-title" id="modalDownload">Preencha os campos e faça o download do PDF</h4>
+        </div>
+        <div class="modal-body">
+
+          <div class="form-group">
+            <label for="nome" class="control-label">Seu nome</label>
+            <input type="text" name="nome"  class="form-control" id="nome" placeholder="Insira seu nome aqui">
+          </div>
+          <div class="form-group">
+            <label for="websiteUrl" class="control-label">Seu site ou blog</label>
+            <input type="url" name="url"  class="form-control" id="websiteUrl" placeholder="http://www.seusite.com">
+          </div>
+          <div class="form-group">
+            <label for="emailAddressSend" class="control-label">Seu e-mail</label>
+            <input type="email" name="email"  class="form-control" id="emailAddressSend" placeholder="Insira seu e-mail aqui">
+          </div>
+          <input type="hidden" name="pdf" id="pdf">
+          <input type="hidden" name="nomearquivo" id="nomearquivo" value="">
+          <input type="hidden" name="urlrd" id="urlrd" value="">
+        </div>
+        <div class="modal-footer">
+          <button type="submit" id="btn-download" class="btn btn-orange btn-lg"><span>Download</span><i class="fa fa-download" aria-hidden="true"></i></button>
+          <img src="assets/images/ajax-loader.gif" class="loading" style="display: none">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalDownloadEmail" tabindex="-1" role="dialog" aria-labelledby="modalDownloadEmail" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form role="form" id="email-form" action="send-email.php" method="post" enctype="multipart/form-data" class="form-horizontal">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><p aria-hidden="true">×</p><p class="txt-close">FECHAR</p></button>
+          <h4 class="modal-title" id="modalDownloadEmail">Preencha os campos para receber o resultado em seu e-mail</h4>
+        </div>
+        <div class="modal-body">
+
+          <div class="form-group">
+            <label for="nome2" class="control-label">Seu nome</label>
+            <input type="text" name="nome2" required="" class="form-control" id="nome2" placeholder="Insira seu nome aqui">
+          </div>
+          <div class="form-group">
+            <label for="websiteUrl" class="control-label">Seu site ou blog</label>
+            <input type="url" name="url2" required="" class="form-control" id="websiteUrl2" placeholder="http://www.seusite.com">
+          </div>
+          <div class="form-group">
+            <label for="emailAddress" class="control-label">Seu e-mail</label>
+            <input type="email" name="email2" required="" class="form-control" id="emailAddress" placeholder="Insira seu e-mail aqui">
+          </div>
+          <div class="form-group">
+            <label for="emailAddressCC" class="control-label">Envie também para seu departamento de marketing</label>
+            <input type="email" name="emailcc" class="form-control" id="emailAddressCC" placeholder="Insira outro e-mail">
+          </div>
+          <input type="hidden" name="pdf2" id="pdf2">
+          <input type="hidden" name="nomearquivo2" id="nomearquivo2" value="">
+          <input type="hidden" name="urlrd2" id="urlrd2" value="">
+        </div>
+        <div class="modal-footer">
+          <button type="submit" id="btn-download-send" class="btn btn-orange btn-lg"><span>Enviar</span><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+          <img src="assets/images/ajax-loader.gif" class="loading" style="display: none">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Success -->
+<div class="modal fade" id="modalSuccess" tabindex="-1" role="dialog" aria-labelledby="modalSuccess" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><p aria-hidden="true">×</p><p class="txt-close">FECHAR</p></button>
+        </div>
+        <div class="modal-body">
+          <h4 class="modal-title" id="modalDownload">E-mail enviado com sucesso. Confira o resultado!</h4>
+        </div>
+        <div class="modal-footer"></div>
+    </div>
+    <h5>Conheça as <strong>ideias</strong> que <strong>transformam</strong> o <strong>seu negócio</strong></h5>
+    <a href="#" class="btn btn-orange btn-lg"><span>agende uma reunião</span><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+</div>
